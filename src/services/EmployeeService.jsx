@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:8080/api/employees";
+const API = "http://13.48.107.128:8080/api/employees";
 const token = () => localStorage.getItem("token");
 
 export const addEmployee = (employee) =>
